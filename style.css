@@ -92,6 +92,9 @@ h1 {
 .hero {
   padding: 1rem;
   padding-bottom: 3rem;
+  width: 76%;
+  max-width: 60rem;
+  margin: 0 auto;
 }
 .intro-text-article {
   display: flex;
@@ -152,5 +155,16 @@ h1 {
   }
   .more-info-button:hover {
     background: var(--foreground-hover);
+  }
+}
+
+@media (min-width: 500px) {
+  .hero {
+    padding: 1rem 2rem 3rem;
+  }
+}
+@media (min-width: 1078px) {
+  h1 {
+    font-size: 8rem;
   }
 }
